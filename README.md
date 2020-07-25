@@ -27,8 +27,8 @@ using TypeScript, Jest, Prettier and SASS (opt-out bootstrap and router) parent 
     npm i
 ```
 
-#### Compiled
-![Compiled Successfully!](<img src="https://i.ibb.co/KxLbx7K/compiled.png" alt="compiled" border="0">)
+#### App Compiled:
+![Compiled Successfully](<https://i.ibb.co/KxLbx7K/compiled.png)
 
 
 > At this point it will work only as a React app skeleton
