@@ -27,6 +27,10 @@ using TypeScript, Jest, Prettier and SASS (opt-out bootstrap and router) parent 
     npm i
 ```
 
+#### Compiled
+![Compiled Successfully!](<img src="https://i.ibb.co/KxLbx7K/compiled.png" alt="compiled" border="0">)
+
+
 > At this point it will work only as a React app skeleton
 
 #### 2. Deploy App dependencies:
@@ -116,14 +120,15 @@ using TypeScript, Jest, Prettier and SASS (opt-out bootstrap and router) parent 
 ### 7. Problems deploying or running the App:
 
 ```html
-To fix the dependency tree, try following the steps below in the exact order:
+I experienced up and downs errors due to Jest and Babel. Looks a bit unstable, while it is working I wanted to include 
+a quick fix just in case: To fix the dependency tree, try following the steps below in the exact order:
 
   1. Delete package-lock.json (not package.json!) and/or yarn.lock in your project folder.
   2. Delete node_modules in your project folder.
   3. Remove "babel-jest" from dependencies and/or devDependencies in the package.json file in your project folder.
-  4. Run npm install or yarn, depending on the package manager you use.  
+  4. Run 'npm install' or 'yarn', depending on the package manager you use.  
   
-In most cases, this should be enough to fix the problem.  
+In most cases, this should be enough to fix the problem. 
 ```
   
 ---
