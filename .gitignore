@@ -1,5 +1,3 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
 # compiled output
 /dist
 /tmp
@@ -47,3 +45,14 @@ testem.log
 Thumbs.db
 
 **/src/assets
+**/src/react-app-env.d.ts
+
+.idea/
+**/lib/node_modules/
+build/
+npm-debug.log
+coverage/
+fao-circle/
+public/errors/
+/coverage
+/bin

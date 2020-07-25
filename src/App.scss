@@ -1,7 +1,7 @@
-$fontMedium: 1.2em;
-$fontStandard: 'Courier New', Courier, monospace;
+$fontMedium: 1.555em;
+$fontStandard: "Courier New", Courier, monospace;
 
-.App {
+.GameApp {
   font-family: $fontStandard;
   text-align: center;
   font-size: $fontMedium;
@@ -13,4 +13,47 @@ a {
 
 li {
   list-style-type: none;
+}
+
+p {
+  background-color: transparent;
+  color: black;
+  border-radius: 2rem;
+  padding: 0.5rem 2rem;
+  border: 1px solid;
+  margin-right: 0.25rem;
+  display: inline-block;
+
+  &:hover {
+    background-color: black;
+    color: white;
+  }
+}
+
+.box {
+  background-color: #ededed;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  color: #444444;
+  font-size: 3em;
+}
+
+.content {
+  &-true {
+    background-color: green;
+    color: white;
+  }
+  &-false {
+    background-color: darkred;
+    color: white;
+  }
+}
+
+.active {
+  color: white;
 }
