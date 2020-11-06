@@ -1,6 +1,6 @@
-## The React Number Game App:
+## The React Number Game App
 
-> Created based on a previous skeleton `react-seed by @laneseleoltd` (https://github.com/leolanese/react-seed.git) out of the box using TypeScript, Jest, Prettier and SASS (opt-out bootstrap and router) parent created based on 'create-react-app' and taking also few dependencies from the original package.json provided like: 'style-loaded' and 'css-loader'.
+This React Number Game is based on a previous boilerplate: `react-seed by @laneseleoltd` (https://github.com/leolanese/react-seed.git) out of the box using TypeScript, Jest, Prettier and SASS (opt-out bootstrap and router) parent created based on 'create-react-app' and taking also few dependencies from the original package.json provided like: 'style-loaded' and 'css-loader'.
 
 ---
 
