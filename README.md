@@ -1,7 +1,6 @@
-## The React-kid-game App:
+## The React Number Game App:
 
-> Created based on a previous skeleton 'react-seed' by @laneseleoltd (https://github.com/leolanese/react-seed.git) out of the box 
-using TypeScript, Jest, Prettier and SASS (opt-out bootstrap and router) parent created based on 'create-react-app' and taking also few dependencies from the original package.json provided like: 'style-loaded' and 'css-loader'.
+> Created based on a previous skeleton `react-seed by @laneseleoltd` (https://github.com/leolanese/react-seed.git) out of the box using TypeScript, Jest, Prettier and SASS (opt-out bootstrap and router) parent created based on 'create-react-app' and taking also few dependencies from the original package.json provided like: 'style-loaded' and 'css-loader'.
 
 ---
 
@@ -90,15 +89,13 @@ using TypeScript, Jest, Prettier and SASS (opt-out bootstrap and router) parent 
 
 > Including just a few suggestion (in any specific order of importance) to include, for an even better, production code (a TODO:)
 
-```html
--Quicky UI creation: StoryBook for isolated creation of and mocking the environment.
--TSLInt: quality are a great way to agreed about code practices to follow by a team to help optimize our JavaScript algorithms.
--Enforce pre-stablish guideline: Implement Git Hooks (pre-commit and pre-push will enforced the implementation of the guideline)
--Quality of the code: SonarQube can be created in the pipes (bug, vulnerability, best practices, smell code, and nice charts.)
--Security: Inspect 'npm' packages for security: npm audit, [snyk] Vulnerability alert, etc.
--Live Documentation: Documentation is great and if produced automatically even better.
-```
 
+* Quicky UI creation: StoryBook for isolated creation of and mocking the environment.
+* TSLInt: quality are a great way to agreed about code practices to follow by a team to help optimize our JavaScript algorithms.
+* Enforce pre-stablish guideline: Implement Git Hooks (pre-commit and pre-push will enforced the implementation of the guideline)
+* Quality of the code: SonarQube can be created in the pipes (bug, vulnerability, best practices, smell code, and nice charts.)
+* Security: Inspect 'npm' packages for security: npm audit, [snyk] Vulnerability alert, etc.
+* Live Documentation: Documentation is great and if produced automatically even better.
 
 ### 5. Run
 
@@ -119,25 +116,21 @@ using TypeScript, Jest, Prettier and SASS (opt-out bootstrap and router) parent 
 
 ### 7. Problems deploying or running the App:
 
-```html
 I experienced up and downs errors due to Jest and Babel. Looks a bit unstable, while it is working I wanted to include 
 a quick fix just in case: To fix the dependency tree, try following the steps below in the exact order:
 
-  1. Delete package-lock.json (not package.json!) and/or yarn.lock in your project folder.
-  2. Delete node_modules in your project folder.
-  3. Remove "babel-jest" from dependencies and/or devDependencies in the package.json file in your project folder.
-  4. Run 'npm install' or 'yarn', depending on the package manager you use.  
+  * Delete package-lock.json (not package.json!) and/or yarn.lock in your project folder.
+  * Delete node_modules in your project folder.
+  * Remove "babel-jest" from dependencies and/or devDependencies in the package.json file in your project folder.
+  * Run 'npm install' or 'yarn', depending on the package manager you use.  
   
 In most cases, this should be enough to fix the problem. 
-```
   
 ---
 ### :100: <i>Thanks!</i>
-#### Let's stay in touch!
+#### Now, don't be an stranger. Let's stay in touch!
 
-> { I'm `Leo Lanese`,<br>
-   'Building Inspiring Responsive `Reactive Solutions`',<br>
-   '`London, UK`' }<br>
+> I'm a passionately curious Front-end Engineer. I like sharing what I know, and learning what I don't. London, UK.
 
 ##### :radio_button: linkedin: <a href="https://www.linkedin.com/in/leolanese/" target="_blank">@LeoLaneseltd</a>
 ##### :radio_button: Twitter: <a href="https://twitter.com/LeoLaneseltd" target="_blank">@LeoLaneseltd</a>
@@ -145,5 +138,6 @@ In most cases, this should be enough to fix the problem.
 ##### :radio_button: DEV.to: <a href="https://www.dev.to/leolanese" target="_blank">dev.to/leolanese</a>
 ##### :radio_button: Blog: <a href="https://www.leolanese.com/blog" target="_blank">leolanese.com/blog</a>
 ##### :radio_button: Questions / Suggestion / Recommendation: developer@leolanese.com
+
 
 
